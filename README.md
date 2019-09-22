@@ -38,3 +38,14 @@ cnpm install @babel/plugin-proposal-class-properties -D
    }
  }
  ```
+
+ **项目运行**
+
+ ```
+ # 配置淘宝镜像
+ npm install -g cnpm --registry=https://registry.npm.taobao.org
+ # 安装依赖库
+ cnpm install
+ # 运行项目、查看效果
+ npm run dev
+ ```
